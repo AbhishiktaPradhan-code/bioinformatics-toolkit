@@ -1,0 +1,134 @@
+LOCUS       Z11681                  2765 bp    DNA     linear   INV 14-NOV-2006
+DEFINITION  P.decipiens gene for hemoglobin.
+ACCESSION   Z11681 S42610
+VERSION     Z11681.1
+KEYWORDS    hemoglobin.
+SOURCE      Pseudoterranova decipiens (codworm)
+  ORGANISM  Pseudoterranova decipiens
+            Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+            Spirurina; Ascaridomorpha; Ascaridoidea; Anisakidae;
+            Pseudoterranova.
+REFERENCE   1  (bases 1 to 2765)
+  AUTHORS   Dixon,B., Walker,B., Kimmins,W. and Pohajdak,B.
+  TITLE     A nematode hemoglobin gene contains an intron previously thought to
+            be unique to plants
+  JOURNAL   J. Mol. Evol. 35 (2), 131-136 (1992)
+   PUBMED   1501253
+REFERENCE   2  (bases 1 to 2765)
+  AUTHORS   Dixon,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-FEB-1992) Brian Dixon, Biology, Dalhousie University,
+            Halifax, Nova Scotia, B3H 4J1, Canada
+COMMENT     On May 6, 2005 this sequence version replaced S42610.1.
+FEATURES             Location/Qualifiers
+     source          1..2765
+                     /organism="Pseudoterranova decipiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:6271"
+                     /clone="clone A"
+                     /clone_lib="P. decipiens genomic"
+                     /dev_stage="larval"
+     exon            1..70
+                     /number=1
+     5'UTR           1..9
+     CDS             join(10..70,256..343,509..606,804..937,1193..1319,
+                     1594..1681,2018..2423)
+                     /codon_start=1
+                     /product="hemoglobin"
+                     /protein_id="CAA77743.1"
+                     /db_xref="GOA:P26914"
+                     /db_xref="InterPro:IPR000971"
+                     /db_xref="InterPro:IPR009050"
+                     /db_xref="InterPro:IPR012292"
+                     /db_xref="UniProtKB/Swiss-Prot:P26914"
+                     /translation="MHSSIVLATVLFVAIASASKTRELCMKSLEHAKVGTSKEAKQDG
+                     IDLYKHMFEHYPAMKKYFKHRENYTPADVQKDPFFIKQGQNILLACHVLCATYDDRET
+                     FDAYVGELMARHERDHVKIPNDVWNHFWEHFIEFLGSKTTLDEPTKHAWQEIGKEFSH
+                     EISHHGRHSVRDHCMNSLEYIAIGDKEHQKQNGIDLYKHMFEHYPHMRKAFKGRENFT
+                     KEDVQKDAFFVKQGHKILLALRMLCSSYDDEPTFDYFVDALMDRHIKDDIHLPQEQWH
+                     EFWKLFAEYLNEKSHQHLTEAEKHAWSTIGEDFAHEADKHAKAEKDHHEGEHKEEHH"
+     sig_peptide     10..63
+     mat_peptide     join(64..70,256..343,509..606,804..937,1193..1319,
+                     1594..1681,2018..2420)
+                     /product="hemoglobin"
+     intron          71..255
+                     /note="unique leader intron"
+                     /number=1
+     exon            256..343
+                     /number=2
+     intron          344..508
+                     /number=2
+     exon            509..606
+                     /number=3
+     intron          607..803
+                     /note="central 'plant' intron"
+                     /number=3
+     exon            804..937
+                     /number=4
+     intron          938..1192
+                     /number=4
+     exon            1193..1319
+                     /number=5
+     intron          1320..1593
+                     /number=5
+     exon            1594..1681
+                     /number=6
+     repeat_region   1594
+                     /note="start of duplication"
+     intron          1682..2017
+                     /number=6
+     exon            2018..2765
+                     /number=7
+     3'UTR           2421..2765
+     regulatory      2751..2756
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 ggaaccatta tgcactcttc aatagttttg gccaccgtgc tctttgtagc gattgcttca
+       61 gcatcaaaaa gtaagtttca cctccctccc cccccccttt tatcaatact ttcccaagct
+      121 tcccgaaacg aatccttcaa gtttcccaac ctcttcaact agttccccaa atttcactac
+      181 ttcccgagct ttgggaaata aactagaatt ctcccaaatc ccgtgagcaa gacgtgaaaa
+      241 ttttcgacat ttcagcgcga gagctatgca tgaaatcgct cgagcatgcc aaggttggca
+      301 ccagcaagga ggcgaagcag gacggcatcg acctctacaa acagtacgtt tggccctcca
+      361 tttttccccg ctttcctcga aatttcggca ccattttcgt ggaaaaatga gaaaaaattt
+      421 tttgaaaaat tacgaaaaaa atatttcagt tagactaaaa aatactaaat atttatagat
+      481 actgaatact aaatattaaa tatttcagta tgttcgagca ctatccagca atgaagaaat
+      541 acttcaagca tcgtgaaaat tatacaccgg ccgatgtcca aaaggatccc ttctttatta
+      601 aacaaggtag gttccacaat cccctccccc gccgcccccc cccccacgcc aatctccaat
+      661 ctctcgagaa aactcccaaa gagaaaacac catctagaaa aatttagaag gtcccgatgt
+      721 cggaccaatt tcaggtctca tctgaaccca atttcaggtc ccatccaacc tgaatttcag
+      781 gtctcatcca acctcccttt caggtcaaaa tatcttgctc gcctgtcacg ttttgtgcgc
+      841 cacatacgac gatcgtgaga cattcgacgc gtacgttggt gagctgatgg cacgacacga
+      901 gcgggaccat gttaaaatac cgaatgatgt ttggaatgta agcaatctag aagtctagtc
+      961 tatccccccc tcttcccctg tctgcacaca cctcagctaa tttcaggtct cgtatctaga
+     1021 gattttaggt tcggtaccac agatgaagta tgaattcata aaattgaggg ttttaaaatt
+     1081 gcagcacaaa accaaaattt taaattttaa aatttaattt caaattttta aaaatttttt
+     1141 aaaatatttt ttaaaatccg gttcaatctt tgagcctcga gaaaatttcc agcacttctg
+     1201 ggaacatttc atcgagtttc tgggaagtaa gaccacgttg gacgagccaa ccaagcacgc
+     1261 atggcaagag atcggtaaag aattctcaca tgaaatcagc caccacggtc gacattcggg
+     1321 taagtcacac gattcataaa gttttgggca aatatccggg caaaaccgga ccaccctgcg
+     1381 gcattgcaaa cgttttttgg gtagtttctt ttgggtaagt taggcggacg ggccgctcaa
+     1441 ataaaactgc cccacgtctt cttcgcagcg tgatactcca gtcattttga gtggctgtca
+     1501 tgcctgcggg taaaaattgc ccattcgggt atttttttat tcccgaaatt catccacttt
+     1561 aaggttgaac tcacattgtg ttgagcattt cagttcgcga ccattgcatg aactcgttgg
+     1621 agtatatcgc gatcggcgat aaggaacatc aaaagcagaa tggcattgac ctttacaagc
+     1681 agtaagttta caagctgaaa ggtattaggg ttcaaaattt tgacaaattc cccgggaaac
+     1741 aaatcatttc ccgggaacca tctccatatt ccagaaatta caccccctat tcccataaat
+     1801 acacggggtt tgcctattat tgggaatagg ggtggggaaa gggggatcaa tttcgttaaa
+     1861 atttagcgtt tccagtggat tgtgggtgat attctagccg caaaaatgat gacttagtag
+     1921 tatcgacagt gaaatattac agtaacattt atttttgtac attacagtaa tatttattac
+     1981 tgtacattac agtaatattt gtttgtgtac attacagtat gttcgagcat tatccacata
+     2041 tgagaaaggc attcaaggga cgcgaaaact tcacgaaaga agacgttcaa aaggacgcat
+     2101 tcttcgttaa acaaggacac aagattctgt tggcccttcg tatgctgtgc tcctcatacg
+     2161 atgacgagcc aacattcgac tattttgttg atgccctaat ggatcgtcat atcaaagatg
+     2221 atattcatct acctcaggaa caatggcatg agttctggaa attgtttgcc gaatatttga
+     2281 acgaaaagag tcaccaacat ttgacagaag ccgagaaaca tgcatggagt acaataggtg
+     2341 aggacttcgc gcatgaggcc gataagcatg caaaggccga aaaagaccat catgaaggag
+     2401 agcacaaaga ggaacaccac tgaaccaacc cgtcgtcgtt caacttaagc cttcagctta
+     2461 agctcgagct aaagcctcag cttgagctca atcttatgtc ctcaggccta aacttgaatt
+     2521 ttaaaagcat tttgttgaag cagtgctagc caatctctta tcttatcggt gctattatca
+     2581 atttactcta tgccaccccc ccccccctct ctctgttctc tatttgatat tctgttcttt
+     2641 tagtgccaga tgttagtacc agatgttatt ttctgcataa ttttcttctc tttacttcgt
+     2701 tattttttcg ttcttctatt tttatggcca atttttgtga tgtcgaagtc aataaaacca
+     2761 ttttt
+//
+
