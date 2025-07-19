@@ -1,6 +1,6 @@
 # Rosalind Python Village Solutions
 
-This repository contains my Python solutions to the [Rosalind](http://rosalind.info/problems/list-view/) "Python Village" problem set. Each problem is linked below.
+This repository contains my Python solutions to the [Rosalind](http://rosalind.info/problems/list-view/) "Bioinformatics Stronghold" problem set. Each problem is linked below.
 
 ---
 
