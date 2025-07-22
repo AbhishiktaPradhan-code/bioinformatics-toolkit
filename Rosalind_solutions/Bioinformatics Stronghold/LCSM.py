@@ -24,7 +24,7 @@ def longest_common_substring(sequences):
     return ''  # Fallback if no common substring found
 
 
-with open('/Users/abhishiktapradhan/Desktop/Bioinformatics roadmap/bioinformatics-summer/Rosalind_solutions/Bioinformatics Stronghold/Data/rosalind_lcsm.txt') as f:
+with open('rosalind_lcsm.txt') as f:
     fasta_text = f.read()
 sequences = read_fasta(fasta_text)
 print(longest_common_substring(sequences))
